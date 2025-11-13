@@ -58,13 +58,13 @@ pipeline {
                 jacoco()
             }
         }
-
-        stage('Build Docker Image') {
-            steps {
-                bat 'docker build -t %DOCKERHUB_REPO% .'
-            }
-        }
-
+//
+//         stage('Build Docker Image') {
+//             steps {
+//                 bat 'docker build -t %DOCKERHUB_REPO% .'
+//             }
+//         }
+//
 //         stage('Push Docker Image to Docker Hub') {
 //             steps {
 //                 withCredentials([usernamePassword(credentialsId: "${DOCKERHUB_CREDENTIALS_ID}", usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASS')]) {

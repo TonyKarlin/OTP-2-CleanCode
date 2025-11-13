@@ -1,3 +1,3 @@
-# OTP-2 CleanCode Example
+# OTP-2 CleanCode Assignment
 
-## Link to assignment [OTP-2-CleanCode-Inclass.pdf](src/docs/OTP-2-CleanCode-Inclass.pdf)[]()
+### Link to assignment [OTP-2-CleanCode-Inclass.pdf](src/docs/OTP-2-CleanCode-Inclass.pdf)[]()
